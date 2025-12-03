@@ -1,7 +1,7 @@
 import "quill/dist/quill.snow.css";
 import { useState } from "react";
-import { Button, Container, Form } from "react-bootstrap"; // Import Bootstrap components
-import ReactQuill from "react-quill";
+import { Button, Container, Form } from "react-bootstrap";
+import ReactQuill from "react-quill-new";
 
 function MyBootstrapQuillEditor() {
   const [editorContent, setEditorContent] = useState("");
@@ -19,7 +19,7 @@ function MyBootstrapQuillEditor() {
     <Container className="mt-4">
       <Form>
         <Form.Group className="mb-3">
-          <Form.Label>Rich Text Content</Form.Label>
+          <Form.Label>범이비누 사용 후기</Form.Label>
           <ReactQuill
             theme="snow"
             value={editorContent}
@@ -28,7 +28,7 @@ function MyBootstrapQuillEditor() {
           />
         </Form.Group>
         <Button variant="primary" onClick={handleSubmit}>
-          Submit
+          저장
         </Button>
       </Form>
     </Container>
