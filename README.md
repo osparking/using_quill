@@ -1,3 +1,7 @@
+# 리액트 부트스트랩에서 편집기 사용하기 실습 프로젝트
+- 지역 저장소 위치: /c/Users/jbpar/IdeaProjects/social/using_quill
+- 구독 문서 제목: 편집기 quill 사용법 실습
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
