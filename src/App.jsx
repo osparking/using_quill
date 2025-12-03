@@ -1,8 +1,7 @@
 import "quill/dist/quill.snow.css"; // For the snow theme
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./components/Home";
-import MyBootstrapQuillEditor from "./components/MyBootstrapQuillEditor";
+import MyQuillEditor from "./components/MyQuillEditor";
 
 function App() {
   return (
@@ -10,8 +9,7 @@ function App() {
       <Routes>
         {" "}
         {/* Use Routes in React Router v6+ */}
-        <Route path="/" element={<Home />} />
-        <Route path="/editor" element={<MyBootstrapQuillEditor />} />
+        <Route path="/" element={<MyQuillEditor />} />
       </Routes>
     </BrowserRouter>
   );
