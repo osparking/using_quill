@@ -2,6 +2,8 @@ import "quill/dist/quill.snow.css"; // For the snow theme
 import "./App.css";
 import MyBootstrapQuillEditor from "./components/MyBootstrapQuillEditor";
 import MyRichTextEditor from "./components/MyRichTextEditor";
+import { Route, Router, Routes } from "react-router-dom";
+import Home from "./components/Home";
 
 function App() {
   return (
