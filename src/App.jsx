@@ -1,12 +1,9 @@
 import "quill/dist/quill.snow.css"; // For the snow theme
-import { useState } from "react";
 import "./App.css";
 import MyBootstrapQuillEditor from "./components/MyBootstrapQuillEditor";
 import MyRichTextEditor from "./components/MyRichTextEditor";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <Router>
       <Routes>
